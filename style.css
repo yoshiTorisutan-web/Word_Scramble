@@ -1,0 +1,175 @@
+/* general styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(41, 41, 41);
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+/* section a */
+
+.section-a {
+  width: fit-content;
+  margin: 10vh auto;
+  padding: 50px;
+}
+
+.section-a h1 {
+  text-align: center;
+  margin-bottom: 2vh;
+  font-size: 4rem;
+}
+
+.instructions {
+  padding: 40px;
+  border-radius: 25px;
+  margin-bottom: 5vh;
+  border: solid #fff;
+}
+
+.instructions h2 {
+  margin-bottom: 2vh;
+}
+
+.instructions h2 .highlight {
+  background-color: rgb(1, 194, 154);
+}
+
+.instructions li {
+  margin-bottom: 1.5vh;
+  margin-left: 5vh;
+}
+
+.difficulty {
+  text-align: center;
+}
+
+.difficulty label {
+  font-size: 1.5rem;
+}
+
+.difficulty select {
+  font-size: 1.2rem;
+  margin-bottom: 5vh;
+}
+
+.btn {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 18px 62px;
+}
+
+.difficulty .btn {
+  background-color: rgb(224, 126, 126);
+}
+
+.difficulty .btn:hover {
+  background-color: rgba(224, 126, 126, 0.8);
+  transition: 0.2s ease-in-out;
+}
+
+/* section b */
+
+.section-b {
+  display: none;
+  width: fit-content;
+  margin: 10vh auto;
+  text-align: center;
+}
+
+.section-b .timer {
+  border: 8px solid rgb(1, 194, 154);
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  margin-bottom: 4vh;
+}
+
+.section-b .timer h2 {
+  letter-spacing: 5px;
+  margin: 65px;
+}
+
+.section-b p {
+  font-size: 1.5rem;
+  color: #ccc;
+  margin-bottom: 2vh;
+}
+
+.section-b h1 {
+  letter-spacing: 18px;
+  text-indent: 18px;
+  font-size: 3rem;
+  color: rgb(224, 247, 248);
+  margin-bottom: 2vh;
+}
+
+.section-b input {
+  width: 250px;
+  height: 35px;
+  font-size: 1.3rem;
+  margin-bottom: 2vh;
+}
+
+.section-b h4 {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-indent: 2px;
+  margin-bottom: 8vh;
+}
+
+.section-b .reset {
+  cursor: pointer;
+  color: rgb(126, 140, 224);
+}
+
+.section-b .reset:hover {
+  color: rgb(97, 113, 217);
+  transition: 0.2s ease-in-out;
+}
+
+/* section c*/
+.section-c {
+  display: none;
+  width: fit-content;
+  margin: 35vh auto;
+  text-align: center;
+  padding: 40px;
+  border-radius: 25px;
+  margin-bottom: 5vh;
+  border: solid #fff;
+}
+
+.section-c h2 {
+  margin-bottom: 2vh;
+  font-size: 2rem;
+}
+
+.section-c p {
+  font-size: 1.5rem;
+  margin-bottom: 3vh;
+}
+
+.section-c .btn {
+  background-color: rgb(1, 194, 154);
+}
+
+.section-c .btn:hover {
+  background-color: rgba(1, 194, 154, 0.8);
+  transition: 0.2s ease-in-out;
+}
